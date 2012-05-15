@@ -1,6 +1,6 @@
 {
   "name": "junction-lastactivity",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Last Activity middleware for Junction.",
   "keywords": ["junction", "xmpp", "jabber", "last", "lastactivity", "xep0012", "middleware"],
   "repository": {
