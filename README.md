@@ -3,6 +3,31 @@
 [Last Activity](http://xmpp.org/extensions/xep-0012.html) middleware built on [Junction](http://github.com/jaredhanson/junction)
 and [Node](http://nodejs.org).
 
+## Installation
+
+    $ npm install junction-lastactivity
+
+## Usage
+
+To respond to requests for information about the last activity associated with
+the entity, use `lastActivity` middleware:
+
+    var lastActivity = require('junction-lastactivity');
+
+    var app = junction()
+      .use(lastActivity());
+
+## Tests
+
+    $ npm install --dev
+    $ make test
+
+[![Build Status](https://secure.travis-ci.org/jaredhanson/junction-lastactivity.png)](http://travis-ci.org/jaredhanson/junction-lastactivity)
+
+## Credits
+
+  - [Jared Hanson](http://github.com/jaredhanson)
+
 ## License
 
 (The MIT License)
